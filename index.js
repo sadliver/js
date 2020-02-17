@@ -72,5 +72,5 @@
 // price = (age < 18) ? 2000 : 3500;
 // alert(price);
 
-let a = (10 % 5);
-console.log(a)
+
+console.log(true != true  )
