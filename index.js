@@ -32,11 +32,45 @@
 // console.log(ex15);
 
 
-console.log(5>4);                   //true
-console.log("apple">"pineapple");   //false
-console.log("2">"12");              //true
-console.log(undefined ==null);      //true
-console.log(undefined ===null);     //false
-console.log("bee"<"be");            //false
-console.log("bee">"Bee");           //true
-console.log("Bee"<"be");            //true
+// console.log(5>4);                   //true
+// console.log("apple">"pineapple");   //false
+// console.log("2">"12");              //true
+// console.log(undefined ==null);      //true
+// console.log(undefined ===null);     //false
+// console.log("bee"<"be");            //false
+// console.log("bee">"Bee");           //true
+// console.log("Bee"<"be");            //true
+
+        //ข้อ 2. ถามชื่อ
+
+// let name = prompt('ฉันชื่ออะไร');
+// if (name == 'jirateepob') {
+//     alert('เก่งมาก');   
+// } else {
+//     alert('คุณไม่รู้จักชื่อฉัน');
+// }
+
+        //ข้อ 3. คำนวณเกรด
+
+// let gpa = prompt('โปรดใส่คะแนนตัวเลขเพื่อคำนวณ');
+//     if (gpa >= 80){
+//         alert('ได้ A');
+//     } else if (gpa >= 70 ){
+//         alert('ได้  B');
+//     } else if (gpa >=60){
+//         alert('ได้ C');
+//     } else if (gpa >=50){
+//         alert('ได้ D');
+//     } if (gpa < 50){
+//         alert('ได้ F');
+//     }
+
+        //ข้อ 4. เปลี่ยน if-else ให้เป็น Termary Operator
+
+// let age = prompt('How old are you?');
+// let price;
+// price = (age < 18) ? 2000 : 3500;
+// alert(price);
+
+let a = (10 % 5);
+console.log(a)
